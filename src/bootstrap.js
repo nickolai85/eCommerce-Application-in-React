@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import { BrowserRouter } from "react-router-dom";
-import App from "./components/app";
+import Layout from "./components/layout";
 import reducers from "./reducers";
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
@@ -14,11 +14,13 @@ function main() {
   ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
       <BrowserRouter>
-        <App />
+        <Layout>
+        <p>hey this is a child component</p>
+          <h2>Hey there</h2>
+        </Layout>
       </BrowserRouter>
-    </Provider>,
-    document.querySelector(".app-wrapper")
-  );
+    </Provider>
+    , document.querySelector('.app-wrapper'));
 }
 
 document.addEventListener("DOMContentLoaded", main);
