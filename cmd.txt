@@ -1,0 +1,6 @@
+Generating the eCommerce Application in React
+-Generating project 
+>>js-generate
+>react-redux-router
+project name:
+>>npm install
