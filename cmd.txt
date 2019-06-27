@@ -4,3 +4,5 @@ Generating the eCommerce Application in React
 >react-redux-router
 project name:
 >>npm install
+How to Setup Redux Form and the Redux Dev Tools for the eCommerce Shop
+>>npm-install --save redux-form
