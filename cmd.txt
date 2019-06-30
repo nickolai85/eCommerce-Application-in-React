@@ -6,3 +6,6 @@ project name:
 >>npm install
 How to Setup Redux Form and the Redux Dev Tools for the eCommerce Shop
 >>npm-install --save redux-form
+Integrating Navbar Action Creators for the eCommerce Application
+-Redux documentation
+https://redux.js.org/
