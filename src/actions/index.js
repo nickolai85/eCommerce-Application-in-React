@@ -5,7 +5,8 @@ import {
 } from './headernavbar';
 
 import {
-    fetchShopCategories
+    fetchShopCategories,
+    fetchShopProducts
 } from './shop';
 
 import {
@@ -18,5 +19,6 @@ export {
     changeNavbarActive,
     fetchUserPurchases,
     setPurchaseDetail,
-    fetchShopCategories
+    fetchShopCategories,
+    fetchShopProducts
 }
