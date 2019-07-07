@@ -13,7 +13,8 @@ import {
 import {
     fetchUserPurchases,
     setPurchaseDetail,
-    fetchCartProducts
+    fetchCartProducts,
+    addCartProduct
 } from './user';
 export {
     setHeaderLinks,
@@ -22,6 +23,7 @@ export {
     fetchUserPurchases,
     setPurchaseDetail,
     fetchCartProducts,
+    addCartProduct,
     fetchShopCategories,
     fetchShopProducts,
     filterProductsWithCategoryId
