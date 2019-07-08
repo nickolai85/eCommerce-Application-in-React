@@ -5,6 +5,7 @@ import * as actions from '../../actions';
 
 import PageTitle from '../pageTitle';
 import ReviewForm from './reviewForm';
+
 class Review extends Component {
 
     componentDidMount() {
@@ -18,7 +19,7 @@ class Review extends Component {
     render() {
         return (
             <div className='review'>
-                <PageTitle className='review__page-title' title='Order Review'/>
+                <PageTitle className='review__page-title' title='Order ReviewS'/>
                 <ReviewForm className='review__form' onSubmit={this.onSubmit}/>
             </div>
         )
